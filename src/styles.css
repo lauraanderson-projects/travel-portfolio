@@ -1,18 +1,73 @@
 body {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
+  background-color: #272044;
 }
 
-h1 {
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/reykjavik-guide-lead-image-48-hours.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+header h1 {
   font-weight: 700;
   font-size: 96px;
-  line-height: 144px;
+  line-height: 1;
   letter-spacing: 0%;
+  margin: 30px 0;
 }
 
-.opener {
+header h2 {
   font-weight: 400;
   font-size: 40px;
-  line-height: 60px;
+  line-height: 1.5;
   letter-spacing: 0%;
-  text-align: center;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 5px;
+  margin: 0px;
+}
+
+header a {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  background-color: white;
+  text-decoration: none;
+  color: #272044;
+  display: inline-block;
+  margin-top: 32px;
+  padding: 10px 32px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 30px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
 }
