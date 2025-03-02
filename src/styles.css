@@ -17,14 +17,42 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .grid-footer-columns {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+
+.card-header img {
+  max-height: 265px;
+}
+
+.card-body {
+  padding: 0 32px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.image-responsive {
+  width: 100%;
+}
+
 section {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+.secondary {
+  background-color: #f8f8f8;
 }
 
 header {
@@ -103,12 +131,42 @@ main h3 {
   padding: 0;
 }
 
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  margin: 0;
+  padding: 0;
+  color: #272044;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #272044;
+  margin: 0;
+  padding: 0;
+}
+
 main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0px;
   opacity: 70%;
+}
+
+.card-button {
+  display: block;
+  color: white;
+  padding: 16px 32px;
+  background-color: #462cb2;
+  text-transform: uppercase;
+  margin: 30px;
+  text-decoration: none;
 }
 
 footer {
