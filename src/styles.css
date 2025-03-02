@@ -1,0 +1,18 @@
+body {
+  font-family: Poppins;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+  letter-spacing: 0%;
+}
+
+.opener {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0%;
+  text-align: center;
+}
